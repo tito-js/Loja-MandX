@@ -1,0 +1,166 @@
+/*==================== GOOGLE FONTS ====================*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+body{
+    margin: 0;
+}
+
+/*--==================== HEADER ====================--*/
+.header {
+    background-image: radial-gradient( circle farthest-corner at 92.3% 71.5%,  rgba(83,138,214,1) 0%, rgba(134,231,214,1) 90% );
+    box-shadow: 0 0 10px #b2ebf2; 
+}
+.logo {
+    display: flex;
+    justify-content: left;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.cabecalho a {
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+    transition: 0.5s;
+    color: #77A1D3 0%;
+    text-decoration: none;
+}
+
+.cabecalho a:hover {
+    color:#79CBCA ;
+}
+
+
+.imglogo {
+     transition: 0.3s;
+}
+
+.imglogo:hover{
+    transform: scale(1.1)
+}
+
+
+
+/*--==================== HOME ====================--*/
+
+.home {
+    background-color: #90caf9;
+    display: flex;
+    justify-content: space-around;
+    padding: 65px 30px 65px 30px;
+    align-items: center;
+    font-size: 30px;
+}
+
+.home h1, p {
+    color: #222;
+    font-weight: bolder;
+}
+
+.imgHome {
+    width: 550px;
+
+}
+.btn-home {
+    background-image: linear-gradient(to right, #77A1D3 0%, #79CBCA  51%, #77A1D3  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #90caf9;
+    border-radius: 10px;
+}
+
+.btn-home:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+/*--==================== INFORMAÇÕES ====================--*/
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.info div{
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    border: 2px solid #79CBCA;
+    margin-top: 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #90caf9;
+    font-size: 20px;
+    color: #222;
+    margin-bottom: 15px
+}
+.info i{
+    font-size: 60px;
+}
+
+
+/*--==================== PRODUTOS ====================--*/
+
+ .Drops {
+    background-color: #e0e0e0;
+    min-height: 800px;
+    text-align: center;
+ }
+
+ .Drops button {
+    align-items: center;
+ }
+
+ .Drops h2 {
+    font-size: 30px;
+    color: #222;
+    text-align: center;
+    padding-top: 20px;
+ }
+
+ .DropsFlex {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+ }
+
+ .DropsFlex div {
+    width: 800px;
+    margin-bottom: 100px;
+    border: 2px solid white; 
+    transition: 0.5s;
+    border-radius: 15px;
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 0 10px 1px rgba(0, 0, 0, 0.35);
+    -webkit-backdrop-filter: blur(15px);
+}
+
+ .DropsFlex div:hover{
+    transform: scale(1.1);
+ }
+
+
+
+
+          
+
+         
+
+         
+         
+
+ 
+ 
